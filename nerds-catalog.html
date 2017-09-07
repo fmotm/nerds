@@ -2,34 +2,39 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <style>
+            body {
+              font-family: 'Roboto', sans-serif;
+              font-size: 16px;
+            }
+    </style>
+   <link rel="stylesheet" href="css/main.css">
     <title>nerds</title>
 </head>
 <body>
-    <header class="toprow">
-            <a class="company-logo" href=""><img src="" width="" height="" alt="Nerds"></a>
+    <header class="header">
+            <a class="company-logo" href=""><img src="img/nerds-logo.png" width="165px" height="65px" alt="Nerds"></a>
                 <nav class="navigation">
                     <ul>
                         <li><a href="">Студия</a></li>
                         <li><a href="">Клиенты</a></li>
                         <li><a href="">Магази</a></li>
                         <li><a href="">Контакт</a></li>
-                        <li><a class="basket" href=""><img src="" width="" height="" alt="Nerds">Корзина</a></li>
+                        <li><a class="basket" href=""><img src="img/cart-icon.png" width="15px" height="15px" alt="Nerds">Корзина</a></li>
                     </ul>
                 </nav>
                 <h1>Магазин готовых шаблонов</h1>
     </header>
     <main class="sitecontent">
-
+      <div class="container">
         <form action="">
         <div class="filter">
             <h3>Стоимость</h3>
             <div class="min">
                 <input type="range" min="1" max="5" id="mincost"  value="3">
-                <div class="min">от <input type="text"></div>
-            </div>
-            <div>
-                <input type="range" min="1" max="5" id="maxcost"  value="3">
-                <div class="max">от <input type="text"></div>
+                <div class="range">от <input type="text"></div>
+                <div class="range">до <input type="text"></div>
             </div>
         </div>
         <div class="filter">
@@ -66,37 +71,141 @@
                     <input type="checkbox" name="block" id="ch5">
                     <label for="ch5">Корзина</label>
             </div>
-            <input type="submit" class="btnshow" value="Показать">
+            <input type="button" class="btnshow" value="Показать">
         </div>
         </form>
-        <div class="Right">
-            <p>Сортировать</p>
+      </div>  
+    <div class="Right">
             <div class="sort">
-                <a class href="">по цене</a>
+                <p>Сортировать</p>
+                <button>по цене</button>
+                <button>по типу</button>
+                <button>по названию</button>
+                <button><img src="img/icon-down-dir.jpg" weight="10" height="11">up</button>
+                <button><img src="img/icon-up-dir.jpg" weight="10" height="11">down</button>   
             </div>
-            <div class="sort">
-                 <a class href="">по типу</a>
+      <div class="catalog-items">
+        <div class="catalog-item">
+            <div class="title">
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
             </div>
-            <div class="sort">
-                  <a class href="">по названию</a>
+            <div class="body">
+                <img src="img/img-sedona.jpg" height="576" height="360" alt="sedonia">
             </div>
-            
-
-
-
+            <div class="desc">
+                <h2>Sedonia</h2>
+                <p>Информационный сайт для туристов</p>
+                <a href=""></a>
+            </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-    </main>
-
+        <div class="catalog-item">
+            <div class="title">
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+            </div>
+            <div class="body">
+                <img src="img/img-pink.jpg" height="576" width="360" alt="pink">
+            </div>
+            <div class="desc">
+                <h2>Pink</h2>
+                <p>Устали от серости мегаполиса</p>
+                <a href=""></a>
+            </div>
+        </div>
+        <div class="catalog-item">
+            <div class="title">
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+            </div>
+            <div class="body">
+                <img src="img/img-barbershop.jpg" height="576" width="360" alt="barbershop">
+            </div>
+            <div class="desc">
+                <h2>Barbershop</h2>
+                <p>Стрижка у нас</p>
+                <a href=""></a>
+            </div>
+        </div>
+            <div class="catalog-item">
+                <div class="title">
+                    <div class="title-btn"></div>
+                    <div class="title-btn"></div>
+                    <div class="title-btn"></div>
+                </div>
+                <div class="body">
+                    <img src="img/img-mishka.jpg" height="576" width="360" alt="pink">
+                </div>
+                <div class="desc">
+                    <h2>Mishka</h2>
+                    <p>Вязанные корзиночки</p>
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="catalog-item">
+                <div class="title">
+                    <div class="title-btn"></div>
+                    <div class="title-btn"></div>
+                    <div class="title-btn"></div>
+                </div>
+                <div class="body">
+                    <img src="img/img-aplus.jpg" height="576" width="360" alt="Учеба">
+                </div>
+                <div class="desc">
+                    <h2>Учеба</h2>
+                    <p>Полезно</p>
+                    <a href=""></a>
+                </div>
+            </div>
+        <div class="catalog-item">
+            <div class="title">
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+                <div class="title-btn"></div>
+            </div>
+            <div class="body">
+                <img src="img/img-kvast.jpg" height="576" width="360" alt="Квас">
+            </div>
+            <div class="desc">
+                <h2>Крафтовый квас</h2>
+                <p>Крафтовый квас</p>
+                <a href=""></a>
+            </div>
+        </div>
+      </div>
+      <div class="paginator">
+            <ul>
+                <li class="active"><a href>1</a></li>
+                <li><a href>2</a></li>
+                <li><a href>3</a></li>
+                <li><a href>Следующая</a></li>
+            </ul>
+      </div>  
+    </div>
+    <div class="map">
+        <img src="img/map.jpg" wight="1440" height="416"></img>
+        <div class="container">
+            <div class="description">
+              <h2>Nerds Desingn Studio</h2>
+              <p>191186, Санкт-Петербург, ул. Б.Конюшенная, д.19/8</p>
+              <a href="tel:+7(812)275-75-75">+7(812)275-75-75</a>
+              <a href="">Напишите нам</a>
+            </div>
+        </div>
+    </div>
+</main>
+<footer>
+        <ul>
+        <li><a href="">ВК</a></li>
+        <li><a href="">F</a></li>
+        <li><a href="">Inst</a></li>            
+        </ul>
+      <h2>Давайте дружить, это выгодно!</h2>
+      <p>Скидка для друзей из социальных сетей 10%</p>
+</footer>
 
 
 
