@@ -9,6 +9,10 @@
   color: #000000;
   display: inline-block;
 }
+
+li {
+  float: left;
+}
 .container {
   width: 1440px;
  float: left;
