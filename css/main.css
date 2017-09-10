@@ -3,12 +3,7 @@
     text-transform: uppercase;
       }
 
-.navigation {
-  float: right;
-  list-style:none;
-  color: #000000;
-  display: inline-block;
-}
+
 
 .navigation li {
   text-transform: uppercase;
