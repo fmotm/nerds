@@ -10,8 +10,10 @@
   display: inline-block;
 }
 
-li {
-  float: left;
+.navigation li {
+  text-transform: uppercase;
+	display: inline-block;
+	list-style-type: none;
 }
 .container {
   width: 1440px;
