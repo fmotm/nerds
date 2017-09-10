@@ -22,13 +22,13 @@ color: black;
 background-repeat: no-repeat;
 background-size: auto;
 }
-.item-1 {
+.slider-item1 {
 background-image: url(../img/nerds-index-slide1.png);
 }
-.item-2 {
+.slider-item2 {
 background-image: url(../img/nerds-index-slide2.png);
 }
-.item-3 {
+.slider-item3 {
 background-image: url(../img/nerds-index-slide3.png);
 }
 .container {
