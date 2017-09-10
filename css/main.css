@@ -19,10 +19,6 @@ li {
 color: black;
 }
 
-.slaider {
-background-repeat: no-repeat;
-background-size: auto;
-}
 .slider-item1 {
 background-image: url('../img/slide1.png');
 }
