@@ -1,15 +1,35 @@
-.header {
-    background-color: #eeeeee;
-    text-transform: uppercase;
-      }
-
-
-
-.navigation li {
+header {
+  background-color: grey;
   text-transform: uppercase;
-	display: inline-block;
-  list-style-type: none;
-  color: black;
+      }
+a {
+text-decoration: none;
+}
+nav {
+font-weight: 500;
+font-size: 16px;
+}
+
+li {
+   display: inline-block;
+}
+
+.navigation a {
+color: black;
+}
+
+.slaider {
+background-repeat: no-repeat;
+background-size: auto;
+}
+.item-1 {
+background-image: url(../img/nerds-index-slide1.png);
+}
+.item-2 {
+background-image: url(../img/nerds-index-slide2.png);
+}
+.item-3 {
+background-image: url(../img/nerds-index-slide3.png);
 }
 .container {
   width: 1440px;
