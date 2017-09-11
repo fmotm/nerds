@@ -7,7 +7,6 @@ a {
 text-decoration: none;
 }
 
-
 nav {
 font-weight: 500;
 font-size: 16px;
@@ -36,6 +35,13 @@ background-image: url('../img/slide2.png');
 }
 .slider-item3 {
 background-image: url('../img/slide3.png');
+}
+
+.button{
+  color: #fff;
+	background-color: #fb565a;
+	padding: 15px 50px;
+	border-radius: 2px;
 }
 
 .container {
