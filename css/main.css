@@ -72,12 +72,16 @@ background-image: url('../img/slide3.png');
   display: inline-block;
 }
 .container {
-  width: 1440px;
- float: left;
+  float: left;
 }
 .filter {
-    margin: 260px;
+    margin: 140px;
 }
+
+.catalog-item {
+display: inline-block;
+}
+
 .paginator li {
 	text-transform: uppercase;
 	display: inline-block;
