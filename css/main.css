@@ -37,9 +37,9 @@ background-image: url('../img/slide2.png');
 background-image: url('../img/slide3.png');
 }
 
-.button{
+.button {
+  background-color: #fb565a;
   color: #fff;
-	background-color: #fb565a;
 	padding: 15px 50px;
 	border-radius: 2px;
 }
