@@ -3,6 +3,7 @@ header {
   text-transform: uppercase;
       }
 
+
 a {
 text-decoration: none;
 }
@@ -20,11 +21,12 @@ font-size: 16px;
 color: black;
 }
 
-p{
+p {
+
   font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
-	color: #283237;  
+	color: #281136;  
 }
 
 .slider-item1 {
@@ -44,6 +46,31 @@ background-image: url('../img/slide3.png');
 	border-radius: 2px;
 }
 
+.item{
+  display: inline-block;
+}
+
+.whatwedoing {
+  padding: 85px 200px 80px 140px;
+  border-bottom-style: 2px solid #eeeeee;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.ourclients{
+  
+  border-bottom: 2px solid #eeeeee;
+}
+
+.ourclients img {
+  display: inline-block;
+}
 .container {
   width: 1440px;
  float: left;
