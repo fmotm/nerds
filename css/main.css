@@ -1,5 +1,5 @@
 header {
-  background-color:  #2382E0;
+  background-color:  lightgray;
   text-transform: uppercase;
       }
 
@@ -57,20 +57,23 @@ background-image: url('../img/slide3.png');
 
 .left {
   float: left;
+  width: 60%;
 }
 
 .right {
   float: right;
+  width: 40%;
 }
 
 .ourclients{
-  
+  clear:both;
   border-bottom: 2px solid #eeeeee;
-}
+  text-align: center;
+  }
 
-.ourclients img {
-  display: inline-block;
-}
+
+
+
 .container {
   float: left;
 }
