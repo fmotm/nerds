@@ -536,16 +536,19 @@ background-image: url('../img/slide3.png');
 	border-radius: 2px;
 }
 
-.item{
-  float: left;
-}
-
 .whatwedoing {
   padding: 85px 200px 80px 140px;
   border-bottom-style: 2px solid #eeeeee;
 }
 
-.whatwedoing div:last-child {
+.item {
+  float: left;
+  width: 33.3%;
+}
+
+
+
+.item div:last-child {
 	margin-left: 170px;
 	padding-right: 0;
 }
