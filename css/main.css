@@ -537,7 +537,7 @@ background-image: url('../img/slide3.png');
 }
 
 .item{
-  display: inline-block;
+  float: left;
 }
 
 .whatwedoing {
