@@ -507,18 +507,26 @@ p {
 }
 
 
-.slider{
+.slider {
   height: 430px;
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .slider-item1 {
 background-image: url('../img/slide1.png');
+height: 430px;
 }
 .slider-item2 {
 background-image: url('../img/slide2.png');
 }
 .slider-item3 {
 background-image: url('../img/slide3.png');
+}
+
+.slider h1 {
+  padding-top: 70px;
+  margin: 0 0 30px 0;
 }
 
 .button {
@@ -535,6 +543,11 @@ background-image: url('../img/slide3.png');
 .whatwedoing {
   padding: 85px 200px 80px 140px;
   border-bottom-style: 2px solid #eeeeee;
+}
+
+.whatwedoing div:last-child {
+	margin-left: 170px;
+	padding-right: 0;
 }
 
 .left {
@@ -561,7 +574,7 @@ background-image: url('../img/slide3.png');
     clear: both;
 }
 
-/*
+
 .container {
   float: left;
 }
