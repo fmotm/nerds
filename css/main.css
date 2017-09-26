@@ -503,6 +503,9 @@ padding-right: 0;
 color: black;
 }
 
+.navigation img {
+  margin-right:20px;
+}
 
 
 p {
@@ -671,6 +674,15 @@ float:left;
     clear: both;
 }
 
+.header-label {
+width: 100%;
+margin: 0 auto;
+padding: 20px 0;
+}
+
+.header-label h1 {
+   text-align: center;
+}
 
 .container-catalog {
   float: left;
