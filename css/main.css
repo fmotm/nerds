@@ -476,32 +476,46 @@ width: 1160px;
 margin: 0 auto;
 }
 
-.company-logo {
-display: block;
-float: left;
+.top-line{
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .navigation {
-float: left;
-margin: 20px 0px 20px 170px;
+  display: flex;
 }
 
-.navigation li {
-display: inline-block;
-text-transform: uppercase;
-list-style-type: none;
-padding: 10px 25px;
-}
-
-.navigation li:last-child {
+.navigation a:last-child {
 margin-left: 130px;
 padding-right: 0;
 }
 
 
 .navigation a {
-color: black;
+color: #000;
+position: relative;
+margin-right: 50px;
 }
+
+
+.navigation a::after {
+	content: "";
+	position: absolute;
+	top: 25px;
+	left: 0;
+	width: 100%;
+	height: 3px;
+}
+
+.navigation a:hover::after {
+	background-color: #fb565a;
+}
+
+.navigation a.active::after {
+	background-color: #fb565a;
+}
+
 
 .navigation img {
   margin-right:20px;
@@ -518,12 +532,35 @@ p {
 
 
 .slider {
-  height: 430px;
-
+	position: relative;
 }
 
-#slider-first {
-  margin-left: 50%;
+.slider input {
+	display: none;
+}
+
+.slider-controlnew {
+  width: 150px;
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  margin-left: -75px;
+  z-index: 2;
+}
+
+.slider-controlnew label {
+display: inline-block;
+margin: 3px 10px;
+width: 24px;
+height: 24px;
+border-radius: 50%;
+background-color: #fff;
+position: relative;
+cursor: pointer;
+}
+
+.slider-item1,.slider-item2,.slider-item3{
+  display:none;
 }
 
 .slider-item1 {
@@ -532,11 +569,30 @@ height: 430px;
 background-repeat: no-repeat;
 background-position: right;
 }
+
 .slider-item2 {
 background-image: url('../img/slide2.png');
+height: 430px;
+background-repeat: no-repeat;
+background-position: right;
 }
 .slider-item3 {
 background-image: url('../img/slide3.png');
+height: 430px;
+background-repeat: no-repeat;
+background-position: right;
+}
+
+#slider-first:checked ~.sliders .slider-item1 {
+  display: block;
+}
+
+#slider-second:checked ~.sliders .slider-item2 {
+  display: block;
+}
+
+#slider-third:checked ~.sliders .slider-item3 {
+  display: block;
 }
 
 .slider h1 {
