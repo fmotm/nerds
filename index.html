@@ -63,7 +63,7 @@
     </header>    
     <main class="sitecontent">
         <div class="container">
-            <div class="whatwedoing clearfix">
+            <div class="whatwedoing">
                 <div class="item">
                     <div class="item-in">
                         <img src="img/illustration-1.jpg" alt="Веб-сайты">
@@ -89,7 +89,7 @@
                     </div>
                 </div>
             </div>
-        <div class="futures clearfix">
+        <div class="futures">
             <div class="left">
                 <h1>Мы маленькая, но гордая дизайн-студия из Краснодара</h1>
                 <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет <br>превыше креатива. Работаем не покладая рук, как роботы.</p>
@@ -103,19 +103,22 @@
             <div class="right">
                 <a href=""><img class="logo" src="img/nerds-illustration.jpg" alt="Nerds"></a>
                 <h2>С 2004 года любим точность во всем:</h2>
-                <div class="percents">
-                    <h3>146<sup>%</sup></h3>
-                    <p>Уровень самоотдачи</p>
-                </div>
-                <div class="percents">
-                    <h3>100<sup>%</sup></h3>
-                    <p>Соблюдение сроков</p>
-                </div>
-                 <div class="percents">
-                    <h3>50<sup>%</sup></h3>
-                    <p>Минимальная предоплата</p>
-                </div>          
+                <div class="percentscolumn">
+                    <div class="percents">
+                        <h3>146<sup>%</sup></h3>
+                        <p>Уровень самоотдачи</p>
+                    </div>
+                    <div class="percents">
+                        <h3>100<sup>%</sup></h3>
+                        <p>Соблюдение сроков</p>
+                    </div>
+                    <div class="percents">
+                        <h3>50<sup>%</sup></h3>
+                        <p>Минимальная предоплата</p>
+                    </div> 
+                </div>         
             </div>
+        </div>
         
 
              <div class="ourclients">
@@ -152,6 +155,27 @@
                 <h2>Давайте дружить, это выгодно!</h2>
             </div>
         </div>
-    </footer>      
+    </footer>   
+    <div class="modal">
+            <div class="write">
+                <div class="write-header">
+                    <h3>Напишите нам</h3>
+                    <button type="button" name="button" class="button close">x</button>
+                </div>
+                <form class="write-body">
+                    <div class="name">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" name="Имя" id="name" placeholder="Представьтесь, пожалуйста" required size="30">
+                    </div>
+                    <div class="email">
+                        <label for="emailwrite">Ваш e-mail:</label>
+                        <input type="text" name="e-mail" id="email" placeholder="Для отправки ответа" required size="30"><br>
+                    </div>
+                    <button class="button submit" type="submit">Отправить</button>
+                </form>
+            </div>
+        </div>
+    
+        <script src="./js/common.js"></script>   
 </body>
 </html>
